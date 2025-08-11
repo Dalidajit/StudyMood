@@ -3,6 +3,7 @@ html, body {
   margin: 0;
   padding: 0;
 }
+
 /*menu de navigation*/
 nav {
 	position: fixed;
@@ -14,7 +15,7 @@ nav {
 	background-color: #f5f5f5;
 	justify-content: center;
     align-items: center;
-    gap: 40px;
+    gap: 3vh;
     z-index: 100;
 }
 nav ul {
@@ -22,15 +23,15 @@ nav ul {
     list-style: none;
     justify-content: center ;
     align-items: center;
-    font-size: 80px;
+    font-size: 5rem;
     background-color: #f5f5f5;
     flex-wrap: wrap;
-    gap: 50px ;
+    gap: 5vh ;
 }
 nav ul li a {
 	text-decoration: none;
 	color: #222222;
-	font-size: 80px;
+	font-size: 5rem;
 	font-weight: bolder;
 
 }
@@ -42,7 +43,7 @@ nav ul li a:hover {
 .banner{
 	position: relative;
 	width: 100%;
-	height: 500px;
+	height: 46vh;
 	background-image: url("accueil.jpeg");
 	background-size: cover;
     background-position: center;
@@ -52,21 +53,21 @@ nav ul li a:hover {
     color: #5c4033;
     text-align: center;
     z-index: 1;
-    margin-top: 160px;
+    margin-top: 15vh;
 }
 .text {
 	position: absolute;
 	background-color: rgba(242, 207, 220, 0.4);
 	color: #5c4033;
 	border-radius: 10px;
-	padding: 30px;
-	font-size: 60px;
+	padding: 3vh;
+	font-size: 4rem;
 	font-weight: bolder;
 }
 .intro p {
-	font-size: 40px ;
+	font-size: 2.5rem;
 	color: #222222;
-	padding: 40px;
+	padding: 3vh;
 	
 }
 
@@ -75,7 +76,7 @@ nav ul li a:hover {
 .bloc{
 	display: flex;
 	align-items:center ;
-	gap:20px;
+	gap:2vh;
 
 }
 .bloc img{
@@ -85,22 +86,22 @@ nav ul li a:hover {
 	height: auto;
 }
 .bloc p {
-	font-size: 40px ;
+	font-size: 2.5rem ;
 	background-color: #5c4033;
 	color: #f5f5f5;
-	padding: 40px;
+	padding: 3vh;
 	border-radius: 20px;
 }
 /*boutons*/
 
 button {
-	font-size: 25px;
+	font-size: 1.5rem;
 	background-color: #f2cfdc;
 	border: solid;
 	border-radius: 15px 15px 15px 15px;
 	padding: 30px 85px 30px 85px;
 	display: block;
-	margin: 20px auto; }
+	margin: 2vh auto; }
 
 button a {
    text-decoration: none;
@@ -121,19 +122,19 @@ footer{
 	bottom: 0;
 	right: 0;
 	left:0;
-	height: 200px;
+	height: 25vh;
 	background-color: #f2cfdc;
 	color: #222222;
 }
 
 footer p{
-	font-size: 60px;
+	font-size: 4rem;
 	font-weight: 500;
 	text-align: center;
 }
 
 .credit{
-	font-size: 60px;
+	font-size: 4rem;
 	font-weight: 500;
 	text-align: right;
 	font-style: italic;
@@ -145,7 +146,7 @@ footer p{
 .banner1{
 	position: relative;
 	width: 100%;
-	height: 500px;
+	height: 46vh;
 	background-image: url("methode.jpeg");
 	background-size: cover;
     background-position: center;
@@ -155,15 +156,15 @@ footer p{
     color: #5c4033;
     text-align: center;
     z-index: 1;
-    margin-top: 160px;
+    margin-top: 18vh;
 }
 .text1 {
 	position: absolute;
 	background-color: rgba(242, 207, 220, 0.4);
 	color: #5c4033;
 	border-radius: 10px;
-	padding: 30px;
-	font-size: 80px;
+	padding: 3vh;
+	font-size: 5rem;
 	font-weight: bolder;
 }
 /*les méthodes et conseils pour les pages méthodes et conseils*/
@@ -179,7 +180,7 @@ footer p{
 	border-radius: 40px ;
 	background-color: #f2cfdc;
 	display: block;
-	margin: 20px auto;
+	margin: 3vh auto;
 	color: #222222;
 	box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
 	border: solid 2px #5c4033;
@@ -187,12 +188,12 @@ footer p{
 
 .marron {
 	width: 40%;
-	padding: 10px;
+	padding: 1vh;
 	box-sizing: border-box;
 	border-radius: 40px ;
 	background-color: #5c4033;
 	display: block;
-	margin: 20px auto;
+	margin: 3vh auto;
 	color: #f5f5f5;
 	box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
 	border: solid 2px #f2cfdc;
@@ -201,20 +202,20 @@ footer p{
 .rose details, p{
 	text-align: left;
 	list-style: none;
-	font-size: 25px;
+	font-size: 1.5rem;
 }
 .marron details,p {
 	text-align: left;
 	list-style: none;
-	font-size: 25px;
+	font-size: 1.5rem;
 }
 .rose h3 {
-	font-size: 50px;
+	font-size: 3rem;
 	font-style: italic;
 	text-align: center;
 }
 .marron h3{
-	font-size: 50px;
+	font-size: 3rem;
 	font-style: italic;
 	text-align: center;
 }
@@ -222,7 +223,7 @@ footer p{
 .banner2{
 	position: relative;
 	width: 100%;
-	height: 500px;
+	height: 46vh;
 	background-image: url("conseil.jpeg");
 	background-size: cover;
     background-position: center;
@@ -232,41 +233,73 @@ footer p{
     color: #5c4033;
     text-align: center;
     z-index: 1;
-    margin-top: 160px;
+    margin-top: 15vh;
 }
 .text2 {
 	position: absolute;
 	background-color: rgba(242, 207, 220, 0.4);
 	color: #5c4033;
 	border-radius: 10px;
-	padding: 30px;
-	font-size: 80px;
+	padding: 3vh;
+	font-size: 5rem;
 	font-weight: bolder;
 }
 /*page 4*/
 form {
   background-color: #f2cfdc;
-  width: 500px;
-  min-height: 200px;
+  width: 50vw;
+  min-height: 19vh;
   border-radius: 30px;
-  padding: 20px;
-  margin-top: 200px;
+  padding: 3vh;
+  margin-top: 20vh;
   box-shadow: 0 4px 12px rgba(0, 0, 0, 0.6);
-  margin: 200px auto 0 auto;
+  margin: 19vh auto ;
 }
 
 form input {
   background-color: #5c4033;
   color: white;
   border: none;
-  padding: 10px 10px 10px 10px;
+  padding: 1vh;
   border-radius: 10px;
   width: 100%;
-  margin-bottom: 10px;
+  margin-bottom: 1vh;
 }
 
 .contact {
   color: #222222;
-  font-size: 50px;
+  font-size: 3rem;
   text-align: center;
+}
+
+@media (max-width: 768px) {
+  html {
+    font-size: 80%; /* 80% de 16px = 12.8px */
+  }
+    .bloc , .rose , .marron {
+    flex-direction: column;
+    gap: 3vh;
+    align-items: center;
+    display: flex;
+  }
+  .bloc img {
+    width: 100%; /* image pleine largeur */
+  }
+  .rose , .marron {
+  	width: 100%;
+  }
+
+    nav ul, nav ul li a {
+    font-size: 2.5rem;
+    gap: 2vh;
+  }
+  nav {
+    height: 15vh;
+  }
+  form {
+    width: 90vw;
+    margin-top: 10vh;
+    align-items: center;
+    margin-top: 20vh;
+  }
 }
